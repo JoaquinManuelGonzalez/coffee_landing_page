@@ -28,4 +28,20 @@ Esta es una simple landing page de venta de café diseñada con fines educativos
     - Explora y experimenta esta landing page de venta de café.
     - Si tienes preguntas o sugerencias, no dudes en abrir un problema (issue) en este repositorio.
 
-¡Gracias por tu interés en este proyecto educativo!
+## Screenshots
+
+### Pantallas Largas:
+<img src="https://github.com/JoaquinManuelGonzalez/coffee_landing_page/blob/main/screenshots/screenshot_1.png" alt="vista landing page para pantallas largas"/>
+
+### Laptops:
+<img src="https://github.com/JoaquinManuelGonzalez/coffee_landing_page/blob/main/screenshots/screenshot_2.png" alt="vista landing page para pantallas laptops"/>
+
+### Tablets:
+<img src="https://github.com/JoaquinManuelGonzalez/coffee_landing_page/blob/main/screenshots/screenshot_3.png" alt="vista landing page para pantallas tablets toggle menu cerrado"/>
+<img src="https://github.com/JoaquinManuelGonzalez/coffee_landing_page/blob/main/screenshots/screenshot_4.png" alt="vista landing page para pantallas tablets toggle menu abierto"/>
+
+### Celulares:
+<img src="https://github.com/JoaquinManuelGonzalez/coffee_landing_page/blob/main/screenshots/screenshot_5.png" alt="vista landing page para pantallas celulares toggle menu cerrado"/>
+<img src="https://github.com/JoaquinManuelGonzalez/coffee_landing_page/blob/main/screenshots/screenshot_6.png" alt="vista landing page para pantallas celulares toggle menu abierto"/>
+
+## ¡Gracias por tu interés en este proyecto educativo!
