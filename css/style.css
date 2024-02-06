@@ -94,3 +94,29 @@ header nav a:hover{
     font-family: "Lora", serif;
     font-weight: 600;
 }
+
+.contenido .contenedor_titulo p{
+    font-size: 1.8em;
+    line-height: 1.5;
+    color: #7a551c;
+    font-family: "Lora", serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contenido .contenedor_titulo a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffd5;
+    background-color: #7a551c;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.contenido .contenedor_titulo a:hover{
+    color: #7a551c;
+    background-color: #ffffd5;
+}
