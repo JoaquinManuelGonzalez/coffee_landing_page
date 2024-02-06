@@ -8,21 +8,6 @@ Esta es una simple landing page de venta de café diseñada con fines educativos
 
 - **Interactiva:** La landing page cuenta con interactividad a través de Javascript para mejorar la experiencia del usuario.
 
-## Jerarquía de Carpetas
-
-```plaintext
-- coffee_landing_page
-  - css
-    - style.css
-  - js
-    - script.js
-  - img
-    - coffee_bag.jpg
-  - index.html
-  - README.md
-  - LICENSE.txt
-```
-
 ## Instrucciones de Ejecución
 
 1. **Clonar el Repositorio:**
