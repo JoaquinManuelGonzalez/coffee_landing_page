@@ -14,7 +14,7 @@ Esta es una simple landing page de venta de café diseñada con fines educativos
     - Abre tu terminal o línea de comandos.
     - Ejecuta el siguiente comando para clonar el repositorio:
       ```bash
-      git clone https://github.com/JoaquinManuelGonzalez/coffe_landing_page.git
+      git clone https://github.com/JoaquinManuelGonzalez/coffee_landing_page.git
       ```
 
 2. **Abrir en el Navegador:**
