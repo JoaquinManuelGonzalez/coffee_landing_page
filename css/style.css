@@ -120,3 +120,15 @@ header nav a:hover{
     color: #7a551c;
     background-color: #ffffd5;
 }
+
+.contenido .contenedor_imagen{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: -50px;
+}
+
+.contenido .contenedor_imagen img{
+    width: 400px;
+}
