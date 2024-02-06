@@ -130,6 +130,7 @@ header nav a:hover{
 
 .contenido .contenedor_imagen img{
     height: 450px;
+    width: 400px;
 }
 
 /* Círculo */
@@ -164,4 +165,45 @@ footer a{
 
 footer a:hover{
     color: #7a551c;
+}
+
+/* Pantallas largas */
+
+@media only screen and (max-width: 1200px) {
+    .contenido .contenedor_titulo h2{
+        font-size: 3.5em;
+    }
+}
+
+/* Laptops */
+
+@media only screen and (max-width: 992px){
+    section{
+        padding: 80px;
+    }
+
+    header{
+        padding: 40px 80px;
+    }
+
+    .contenido .contenedor_titulo h2{
+        font-size: 3em;
+    }
+
+    .contenido .contenedor_titulo a{
+        margin-left: 0px;
+    }
+
+    .contenido .contenedor_imagen{
+        width: 400px;
+    }
+
+    .contenido .contenedor_imagen img{
+        height: 350px;
+        width: 300px;
+    }
+
+    .circulo{
+        clip-path: circle(550px at right 675px);
+    }
 }
