@@ -20,6 +20,7 @@ Esta es una simple landing page de venta de café diseñada con fines educativos
     - coffee_bag.jpg
   - index.html
   - README.md
+  - LICENSE.txt
 ```
 
 ## Instrucciones de Ejecución
