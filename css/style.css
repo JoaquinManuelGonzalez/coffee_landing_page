@@ -66,3 +66,31 @@ header nav a:hover{
 
 /* Contenido */
 
+.contenido{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.contenido .contenedor_titulo{
+    position: relative;
+    max-width: 600px;
+}
+
+.contenido .contenedor_titulo h2{
+    font-size: 4.5em;
+    text-transform: uppercase;
+    color: #7a551c;
+    line-height: 1.2;
+}
+
+.contenido .contenedor_titulo h2 span{
+    background-color: #9b7239;
+    color: #ffffd5;
+    padding: 0 10px;
+    font-family: "Lora", serif;
+    font-weight: 600;
+}
