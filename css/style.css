@@ -43,12 +43,12 @@ header .logo{
     font-weight: 600;
 }
 
-header nav{
+header .nav_bar{
     position: relative;
     display: flex;
 }
 
-header nav a{
+header .nav_bar a{
     margin-left: 30px;
     text-decoration: none;
     color: #7a551c;
@@ -59,7 +59,7 @@ header nav a{
     text-transform: uppercase;
 }
 
-header nav a:hover{
+header .nav_bar a:hover{
     color: #ffffd5;
 }
 
@@ -205,5 +205,58 @@ footer a:hover{
 
     .circulo{
         clip-path: circle(550px at right 675px);
+    }
+}
+
+/* Tablets */
+
+@media only screen and (max-width: 768px){
+    section{
+        padding: 40px;
+    }
+
+    header{
+        padding: 30px 40px;
+    }
+
+    header .nav_bar{
+        display: none;
+    }
+    
+    header .nav_bar.active{
+        width: 100%;
+        height: calc(100% - 40px);
+        position: fixed;
+        top: 80px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #bba694;
+        z-index: 1;
+    }
+
+    header .nav_bar a{
+        font-size: 1.2em;
+        line-height: 2;
+    }
+
+    header .menu_toggle{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: url(/img/toggle_menu.svg);
+        background-size: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+    header .menu_toggle.active{
+        background: url(/img/close_menu.svg);
+        background-size: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }
