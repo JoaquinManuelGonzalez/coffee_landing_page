@@ -200,7 +200,7 @@ footer a:hover{
 
     .contenido .contenedor_imagen img{
         height: 350px;
-        width: 300px;
+        width: 280px;
     }
 
     .circulo{
@@ -258,5 +258,39 @@ footer a:hover{
         background-size: 30px;
         background-position: center;
         background-repeat: no-repeat;
+    }
+
+    .contenido{
+        flex-direction: column;
+        gap: 70px;
+        margin-top: 35px;
+    }
+
+    .contenido .contenedor_titulo {
+        text-align: center;
+        padding-right: 30px;
+    }
+
+    .contenido .contenedor_titulo h2{
+        font-size: 2em;
+    }
+
+    .contenido .contenedor_titulo p {
+        font-size: 1.5em;
+    }
+
+    .contenido .contenedor_imagen {
+        width: 400px;
+    }
+
+    .contenido .contenedor_imagen img {
+        height: 300px;
+        width: 300px;
+        padding-right: 50px;
+        margin-top: 0;
+    }
+
+    .circulo{
+        clip-path: circle(300px at center bottom);
     }
 }
